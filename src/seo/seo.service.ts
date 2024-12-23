@@ -144,7 +144,7 @@ You are an expert in Search Engine Optimization (SEO) and web accessibility. You
         { role: 'developer', content: this.context },
         { role: 'user', content: prompt },
       ],
-      max_tokens: 100,
+      max_tokens: 1000,
     });
     return completion.choices[0].message.content;
   }
